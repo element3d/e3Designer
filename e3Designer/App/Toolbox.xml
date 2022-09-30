@@ -1,0 +1,12 @@
+<Element
+    width="300dp"
+    height="100%"
+    alignItemsVer="Start"
+    alignItemsHor="Start"
+    backgroundColor="glm::vec4(200, 200, 200, 255)"
+    borderSize="2dp"
+    borderColor="glm::vec4(50, 50, 50, 255)">
+    <UiTreeView
+        element="mTree">
+    </UiTreeView>
+</Element>

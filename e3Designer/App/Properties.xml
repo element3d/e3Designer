@@ -1,0 +1,7 @@
+<Element
+    width="220dp"
+    height="100%"
+    backgroundColor="glm::vec4(150, 150, 150, 255)"
+    borderSize="2dp"
+    borderColor="glm::vec4(50, 50, 50, 255)">
+</Element>
