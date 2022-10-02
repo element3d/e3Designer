@@ -3,6 +3,7 @@
 #define __WorkspaceBase_H__
 
 #include <e3/ViewFactory.h>
+#include <SelectionItem.h>
 
 
 class WorkspaceBase : public e3::Element
@@ -22,7 +23,8 @@ public:
 
  
 protected:
-	
+	SelectionItem* mSelectionItem = nullptr;
+
 
 };
 

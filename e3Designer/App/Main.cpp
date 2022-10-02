@@ -3,5 +3,5 @@
 Main::Main(e3::Element* pParent)
 	: MainBase(pParent)
 {
-
+	mWorkspace->SetProperties(mProperties);
 }

@@ -1,0 +1,17 @@
+<Element
+  width="100%"
+  height="30dp"
+  backgroundColor="glm::vec4(255)">
+  <include path="UiColor.h"/>
+  <Text
+    element="mTitle"
+    fontSize="14dp"
+    width="50%">
+  </Text>
+  <Input
+    element="mValue"
+    width="50%"
+    height="100%"
+    fontSize="14">
+  </Input>
+</Element>

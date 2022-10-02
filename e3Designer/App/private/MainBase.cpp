@@ -7,11 +7,11 @@ MainBase::MainBase(e3::Element* pParent)
 	: e3::Element(pParent)
 {
         this->SetAlignItemsHor((e3::EAlignment)0);
-                Toolbox* pCustomView1 = new Toolbox();
-        AddElement(pCustomView1);
-                Workspace* pCustomView2 = new Workspace();
-        AddElement(pCustomView2);
-                Properties* pCustomView3 = new Properties();
-        AddElement(pCustomView3);
+        mToolbox = new Toolbox();
+        AddElement(mToolbox);
+        mWorkspace = new Workspace();
+        AddElement(mWorkspace);
+        mProperties = new Properties();
+        AddElement(mProperties);
 
 }

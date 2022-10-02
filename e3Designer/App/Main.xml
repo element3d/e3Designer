@@ -1,11 +1,14 @@
 <Element
     alignItemsHor="Start">
 
-    <Toolbox>
+    <Toolbox
+        element="mToolbox">
     </Toolbox>
-    <Workspace>
+    <Workspace
+        element="mWorkspace">
     </Workspace>
-    <Properties>
+    <Properties
+        element="mProperties">
     </Properties>
 
 </Element>

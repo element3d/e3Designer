@@ -25,7 +25,10 @@ public:
 
  
 protected:
-	
+	Toolbox* mToolbox = nullptr;
+Workspace* mWorkspace = nullptr;
+Properties* mProperties = nullptr;
+
 
 };
 

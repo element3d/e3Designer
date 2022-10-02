@@ -1,0 +1,46 @@
+<Element
+  width="1"
+  height="1"
+  positionType="Absolute"
+  left="0"
+  top="0"
+  borderSize="2"
+  borderColor="glm::vec4(0, 0, 0, 255)">
+
+  <Element
+    width="10"
+    height="10"
+    backgroundColor="glm::vec4(0, 255, 255, 255)"
+    positionType="Absolute"
+    left="-5"
+    top="-5">
+  </Element>
+
+  <Element
+    width="10"
+    height="10"
+    backgroundColor="glm::vec4(0, 255, 255, 255)"
+    positionType="Absolute"
+    right="-5"
+    top="-5">
+  </Element>
+
+  <Element
+    width="10"
+    height="10"
+    backgroundColor="glm::vec4(0, 255, 255, 255)"
+    positionType="Absolute"
+    left="-5"
+    bottom="-5">
+  </Element>
+
+  <Element
+    width="10"
+    height="10"
+    backgroundColor="glm::vec4(255, 255, 0, 255)"
+    positionType="Absolute"
+    right="-5"
+    bottom="-5">
+  </Element>
+
+</Element>

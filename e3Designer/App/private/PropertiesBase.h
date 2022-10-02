@@ -3,6 +3,9 @@
 #define __PropertiesBase_H__
 
 #include <e3/ViewFactory.h>
+#include <UiExpander.h>
+#include <UiExpanderBody.h>
+#include <PropItemNumber.h>
 
 
 class PropertiesBase : public e3::Element
@@ -22,7 +25,13 @@ public:
 
  
 protected:
-	
+	PropItemNumber* mWidthItem = nullptr;
+PropItemNumber* mHeightItem = nullptr;
+PropItemNumber* mMarginLeftItem = nullptr;
+PropItemNumber* mMarginRightItem = nullptr;
+PropItemNumber* mMarginTopItem = nullptr;
+PropItemNumber* mMarginBottomItem = nullptr;
+
 
 };
 
