@@ -1,9 +1,9 @@
-#include "PropItemNumberBase.h"
+#include "PropItemComboBase.h"
 
 #include <e3/ViewFactory.h>
 #include "e3DesignerValues.h"
 
-PropItemNumberBase::PropItemNumberBase(e3::Element* pParent)
+PropItemComboBase::PropItemComboBase(e3::Element* pParent)
 	: e3::Element(pParent)
 {
         this->SetWidth("90%");
@@ -19,10 +19,13 @@ PropItemNumberBase::PropItemNumberBase(e3::Element* pParent)
         pElement1->SetMargin("2dp");
         pElement1->SetHeight("50%");
         pElement1->SetBackgroundColor(glm::vec4(180, 180, 180, 255));
-        mValue = e3::ViewFactory::CreateInput();
-        AddElement(mValue);
-        mValue->SetWidth("50%");
-        mValue->SetHeight("100%");
-        mValue->SetFontSize(12);
+        mCombo = new UiComboBox();
+        AddElement(mCombo);
+        mCombo->SetWidth("50%");
+        mCombo->SetHeight("100%");
+        mComboHeader = new UiComboBoxHeaderDefault();
+        mCombo->AddElement(mComboHeader);
+        mComboBody = new UiComboBoxBody();
+        mCombo->AddElement(mComboBody);
 
 }

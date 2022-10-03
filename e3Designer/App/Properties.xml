@@ -1,18 +1,21 @@
 <Element
     width="220dp"
     height="100%"
-    backgroundColor="glm::vec4(150, 150, 150, 255)"
+    backgroundColor="glm::vec4(220, 220, 220, 255)"
     borderSize="2dp"
-    borderColor="glm::vec4(50, 50, 50, 255)"
+    borderColor="glm::vec4(220, 220, 220, 255)"
     orientation="Vertical"
     alignItemsVer="Start">
 
     <!-- Size -->
     <UiExpander
         width="100%">
+        <UiExpanderHeaderDefault
+            title="_s(Size)">
+        </UiExpanderHeaderDefault>
         <UiExpanderBody
             width="100%"
-            backgroundColor="glm::vec4(255, 0, 0, 255)"
+            alignItemsHor="End"
             orientation="Vertical">
             <PropItemNumber
                 element="mWidthItem"
@@ -28,9 +31,12 @@
     <!-- Margin -->
     <UiExpander
         width="100%">
+        <UiExpanderHeaderDefault
+            title="_s(Margin)">
+        </UiExpanderHeaderDefault>
         <UiExpanderBody
             width="100%"
-            backgroundColor="glm::vec4(255, 0, 0, 255)"
+            alignItemsHor="End"
             orientation="Vertical">
             <PropItemNumber
                 element="mMarginLeftItem"
@@ -49,7 +55,75 @@
                 title="_s(Bottom)">
             </PropItemNumber>
         </UiExpanderBody>
+    </UiExpander>
 
+    <!-- Padding -->
+    <UiExpander
+        width="100%">
+        <UiExpanderHeaderDefault
+            title="_s(Padding)">
+        </UiExpanderHeaderDefault>
+        <UiExpanderBody
+            width="100%"
+            alignItemsHor="End"
+            orientation="Vertical">
+            <PropItemNumber
+                element="mPaddingLeftItem"
+                title="_s(Left)">
+            </PropItemNumber>
+            <PropItemNumber
+                element="mPaddingRightItem"
+                title="_s(Right)">
+            </PropItemNumber>
+            <PropItemNumber
+                element="mPaddingTopItem"
+                title="_s(Top)">
+            </PropItemNumber>
+            <PropItemNumber
+                element="mPaddingBottomItem"
+                title="_s(Bottom)">
+            </PropItemNumber>
+        </UiExpanderBody>
+    </UiExpander>
+
+    <!-- Layout -->
+    <UiExpander
+        width="100%">
+        <UiExpanderHeaderDefault
+            title="_s(Layout)">
+        </UiExpanderHeaderDefault>
+        <UiExpanderBody
+            width="100%"
+            alignItemsHor="End"
+            orientation="Vertical">
+            <PropItemCombo
+                element="mOrientationItem"
+                title="_s(Orientation)">
+            </PropItemCombo>
+         
+        </UiExpanderBody>
+    </UiExpander>
+
+
+    <!-- Background -->
+    <UiExpander
+        width="100%">
+        <UiExpanderHeaderDefault
+            title="_s(Background)">
+        </UiExpanderHeaderDefault>
+        <UiExpanderBody
+            width="100%"
+            alignItemsHor="End"
+            orientation="Vertical">
+            <PropItemColor
+                element="mBgColorItem"
+                title="_s(Color)">
+            </PropItemColor>
+            <PropItemNumber
+                element="mBgImageItem"
+                title="_s(Image)">
+            </PropItemNumber>
+        </UiExpanderBody>
     </UiExpander>
 
 </Element>

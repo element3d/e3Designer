@@ -8,12 +8,6 @@
     textAlignHor="Start"
     width="50%">
   </Text>
-  <Element
-    width="1dp"
-    margin="2dp"
-    height="50%"
-    backgroundColor="glm::vec4(180, 180, 180, 255)">
-  </Element>
   <Input
     element="mValue"
     width="50%"

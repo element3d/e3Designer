@@ -13,6 +13,8 @@ public:
 	void SetProperties(Properties* pProperties) { mProperties = pProperties; }
 	virtual void OnDrop(e3::DragEvent* pEvent) override;
 
+	void UpdateSelection(e3::Element* pElement);
+
 private:
 	Properties* mProperties = nullptr;
 };

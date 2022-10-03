@@ -14,10 +14,15 @@
     height="50%"
     backgroundColor="glm::vec4(180, 180, 180, 255)">
   </Element>
-  <Input
-    element="mValue"
+  <UiComboBox
+    element="mCombo"
     width="50%"
-    height="100%"
-    fontSize="12">
-  </Input>
+    height="100%">
+    <UiComboBoxHeaderDefault
+        element="mComboHeader">
+    </UiComboBoxHeaderDefault>
+    <UiComboBoxBody
+        element="mComboBody">
+    </UiComboBoxBody>
+  </UiComboBox>
 </Element>

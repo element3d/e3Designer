@@ -4,8 +4,11 @@
 
 #include <e3/ViewFactory.h>
 #include <UiExpander.h>
+#include <UiExpanderHeaderDefault.h>
 #include <UiExpanderBody.h>
 #include <PropItemNumber.h>
+#include <PropItemCombo.h>
+#include <PropItemColor.h>
 
 
 class PropertiesBase : public e3::Element
@@ -31,6 +34,13 @@ PropItemNumber* mMarginLeftItem = nullptr;
 PropItemNumber* mMarginRightItem = nullptr;
 PropItemNumber* mMarginTopItem = nullptr;
 PropItemNumber* mMarginBottomItem = nullptr;
+PropItemNumber* mPaddingLeftItem = nullptr;
+PropItemNumber* mPaddingRightItem = nullptr;
+PropItemNumber* mPaddingTopItem = nullptr;
+PropItemNumber* mPaddingBottomItem = nullptr;
+PropItemCombo* mOrientationItem = nullptr;
+PropItemColor* mBgColorItem = nullptr;
+PropItemNumber* mBgImageItem = nullptr;
 
 
 };
