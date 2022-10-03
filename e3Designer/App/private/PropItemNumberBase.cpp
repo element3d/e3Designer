@@ -1,7 +1,7 @@
 #include "PropItemNumberBase.h"
 
 #include <e3/ViewFactory.h>
-#include "e3DesignerValues.h"
+#include ".//e3DesignerValues.h"
 
 PropItemNumberBase::PropItemNumberBase(e3::Element* pParent)
 	: e3::Element(pParent)

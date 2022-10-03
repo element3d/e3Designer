@@ -1,7 +1,7 @@
 #include "ToolboxBase.h"
 
 #include <e3/ViewFactory.h>
-#include "e3DesignerValues.h"
+#include ".//e3DesignerValues.h"
 
 ToolboxBase::ToolboxBase(e3::Element* pParent)
 	: e3::Element(pParent)

@@ -8,6 +8,7 @@
 #include <UiExpanderBody.h>
 #include <PropItemNumber.h>
 #include <PropItemCombo.h>
+#include <UiComboBoxItem.h>
 #include <PropItemColor.h>
 
 
@@ -39,6 +40,8 @@ PropItemNumber* mPaddingRightItem = nullptr;
 PropItemNumber* mPaddingTopItem = nullptr;
 PropItemNumber* mPaddingBottomItem = nullptr;
 PropItemCombo* mOrientationItem = nullptr;
+PropItemCombo* mAlignItemsHorItem = nullptr;
+PropItemCombo* mAlignItemsVerItem = nullptr;
 PropItemColor* mBgColorItem = nullptr;
 PropItemNumber* mBgImageItem = nullptr;
 

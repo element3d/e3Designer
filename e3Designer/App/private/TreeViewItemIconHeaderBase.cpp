@@ -1,7 +1,7 @@
 #include "TreeViewItemIconHeaderBase.h"
 
 #include <e3/ViewFactory.h>
-#include "e3DesignerValues.h"
+#include ".//e3DesignerValues.h"
 
 TreeViewItemIconHeaderBase::TreeViewItemIconHeaderBase(e3::Element* pParent)
 	: UiTreeViewItemHeader(pParent)

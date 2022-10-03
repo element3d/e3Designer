@@ -1,7 +1,7 @@
 #include "PropItemComboBase.h"
 
 #include <e3/ViewFactory.h>
-#include "e3DesignerValues.h"
+#include ".//e3DesignerValues.h"
 
 PropItemComboBase::PropItemComboBase(e3::Element* pParent)
 	: e3::Element(pParent)

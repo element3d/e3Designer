@@ -1,5 +1,5 @@
 <Element
-    width="220dp"
+    width="300dp"
     height="100%"
     backgroundColor="glm::vec4(220, 220, 220, 255)"
     borderSize="2dp"
@@ -99,6 +99,52 @@
             <PropItemCombo
                 element="mOrientationItem"
                 title="_s(Orientation)">
+                <UiComboBoxItem
+                    title="_s(Horizontal)">
+                </UiComboBoxItem>
+                <UiComboBoxItem
+                    title="_s(Vertical)">
+                </UiComboBoxItem>
+            </PropItemCombo>
+            <!-- Align items hor -->
+            <PropItemCombo
+                element="mAlignItemsHorItem"
+                title="_s(AlignItemsHor)">
+                <UiComboBoxItem
+                    title="_s(Center)">
+                </UiComboBoxItem>
+                <UiComboBoxItem
+                    title="_s(Start)">
+                </UiComboBoxItem>
+                <UiComboBoxItem
+                    title="_s(End)">
+                </UiComboBoxItem>
+                <UiComboBoxItem
+                    title="_s(SpaceBetween)">
+                </UiComboBoxItem>
+                <UiComboBoxItem
+                    title="_s(SpaceAround)">
+                </UiComboBoxItem>
+            </PropItemCombo>
+            <!-- Align items ver -->
+            <PropItemCombo
+                element="mAlignItemsVerItem"
+                title="_s(AlignItemsVer)">
+                <UiComboBoxItem
+                    title="_s(Center)">
+                </UiComboBoxItem>
+                <UiComboBoxItem
+                    title="_s(Start)">
+                </UiComboBoxItem>
+                <UiComboBoxItem
+                    title="_s(End)">
+                </UiComboBoxItem>
+                <UiComboBoxItem
+                    title="_s(SpaceBetween)">
+                </UiComboBoxItem>
+                <UiComboBoxItem
+                    title="_s(SpaceAround)">
+                </UiComboBoxItem>
             </PropItemCombo>
          
         </UiExpanderBody>
