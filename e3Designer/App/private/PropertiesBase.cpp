@@ -1,7 +1,7 @@
 #include "PropertiesBase.h"
 
 #include <e3/ViewFactory.h>
-#include "e3DesignerValues.h"
+#include ".//e3DesignerValues.h"
 
 PropertiesBase::PropertiesBase(e3::Element* pParent)
 	: e3::Element(pParent)

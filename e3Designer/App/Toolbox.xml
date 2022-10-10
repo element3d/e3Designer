@@ -3,7 +3,7 @@
     height="100%"
     alignItemsVer="Start"
     alignItemsHor="Start"
-    backgroundColor="glm::vec4(255)"
+    backgroundColor="glm::vec4(240, 240, 240, 255)"
     borderSize="0"
     borderColor="glm::vec4(50, 50, 50, 255)">
     <UiTreeView

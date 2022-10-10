@@ -1,7 +1,9 @@
 <Element
     width="100%"
     height="100%"
-    scaling="Shrink">
+    scaling="Shrink"
+    backgroundColor="glm::vec4(250, 250, 250, 255)"
+    borderRadius="20">
 
     <SelectionItem
         element="mSelectionItem">
