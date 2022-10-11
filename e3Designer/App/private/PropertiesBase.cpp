@@ -1,15 +1,13 @@
 #include "PropertiesBase.h"
 
 #include <e3/ViewFactory.h>
-#include ".//e3DesignerValues.h"
+#include "e3DesignerValues.h"
 
 PropertiesBase::PropertiesBase(e3::Element* pParent)
 	: e3::Element(pParent)
 {
         this->SetWidth("300dp");
         this->SetHeight("100%");
-        this->SetBackgroundColor(glm::vec4(220, 220, 220, 255));
-        this->SetBorderSize("2dp");
         this->SetBorderColor(glm::vec4(220, 220, 220, 255));
         this->SetOrientation((e3::EOrientation)1);
         this->SetAlignItemsVer((e3::EAlignment)0);

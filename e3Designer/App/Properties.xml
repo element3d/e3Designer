@@ -1,8 +1,6 @@
 <Element
     width="300dp"
     height="100%"
-    backgroundColor="glm::vec4(220, 220, 220, 255)"
-    borderSize="2dp"
     borderColor="glm::vec4(220, 220, 220, 255)"
     orientation="Vertical"
     alignItemsVer="Start">

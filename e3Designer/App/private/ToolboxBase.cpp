@@ -10,7 +10,6 @@ ToolboxBase::ToolboxBase(e3::Element* pParent)
         this->SetHeight("100%");
         this->SetAlignItemsVer((e3::EAlignment)0);
         this->SetAlignItemsHor((e3::EAlignment)0);
-        this->SetBackgroundColor(glm::vec4(240, 240, 240, 255));
         this->SetBorderSize(0);
         this->SetBorderColor(glm::vec4(50, 50, 50, 255));
         mTree = new UiTreeView();
